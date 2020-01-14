@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Angular Filter Sorting Pagination';
   filter: string = '';
-
+  p: number = 1;
   key: string = 'name';
   reverse: boolean = false;
   sort(key) {
