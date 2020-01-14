@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Filter Sorting Pagination';
+  filter: string = '';
   games = [
     {
       "id": "1",
