@@ -4,7 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { Ng2OrderModule } from 'ng2-order-pipe';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +16,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     AppRoutingModule,
     HttpModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    Ng2OrderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,6 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Angular Filter Sorting Pagination';
   filter: string = '';
+
+  key: string = 'name';
+  reverse: boolean = false;
+  sort(key) {
+    this.key = key;
+    this.reverse = !this.reverse;
+  }
   games = [
     {
       "id": "1",
